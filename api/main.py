@@ -26,7 +26,7 @@ db = get_db()
 save_session(db, req.user_id, {'type': 'chat', 'user': req.text, 'bot': resp})
 # check alerting rules (very simple): if negative sentiment threshold hit
 check_and_send_alert(db, req.user_id, resp)
-return {'reply': resp}
+return {'reply': resp} #rdesfds 
 
 
 @app.post('/emotion')
