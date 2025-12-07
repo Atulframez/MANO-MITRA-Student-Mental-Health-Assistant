@@ -1,0 +1,13 @@
+fastapi
+"uvicorn[standard]"
+streamlit
+transformers
+torch
+pillow
+opencv-python-headless
+pymongo
+python-dotenv
+requests
+tenacity
+fer
+httpx
